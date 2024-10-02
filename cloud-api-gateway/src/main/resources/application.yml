@@ -1,0 +1,41 @@
+server:
+  port: 9191
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: API-GATEWAY
+  output.ansi.enabled: ALWAYS
+  zipkin:
+    base-url: http://localhost:9411/
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+      - id: AUTHORITY-SERVICE
+        uri: http://localhost:9001/
+        predicates:
+          - Path=/authority/**
+        filters:
+        - name: CircuitBreaker
+          args:
+            name: AUTHORITY-SERVICE
+            fallbackuri: forward:/authority-service-fallBack
+      - id: USER-SERVICE
+        uri: http://localhost:9002/
+        predicates:
+          - Path=/users/**
+        filters:
+        - name: CircuitBreaker
+          args:
+            name: USER-SERVICE
+            fallbackuri: forward:/user-service-fallBack
+        metadata:
+          response-timeout: 40000
+
