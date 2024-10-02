@@ -1,0 +1,16 @@
+
+Q
+java:S1128"5Remove this unused import 'javax.persistence.Column'.(ìûæH8‚öÑ¶å0
+Y
+java:S1128"7Remove this unused import 'javax.persistence.Temporal'.(…ò­“üÿÿÿÿ8ŠÎĞ¶å0
+]
+java:S1128	";Remove this unused import 'javax.persistence.TemporalType'.(×ÓÛøÿÿÿÿ8ŠÎĞ¶å0
+a
+java:S1128
+"?Remove this unused import 'javax.validation.constraints.Email'.(¸àô¹üÿÿÿÿ8ñ¥Ï¶å0
+Z
+java:S1128"=Remove this unused import 'javax.validation.constraints.Max'.(şÉ½¦8„öÑ¶å0
+Z
+java:S1128"=Remove this unused import 'javax.validation.constraints.Min'.(ã¤½8„öÑ¶å0
+c
+java:S1128"ARemove this unused import 'javax.validation.constraints.Pattern'.(¶ò†€øÿÿÿÿ8€ÖÑ¶å0
