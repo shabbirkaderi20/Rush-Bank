@@ -44,19 +44,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/cseng/IntelliJ-Workspace/banking-system",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.39885056",
-    "settings.editor.selected.configurable": "application.passwordSafe"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cseng/IntelliJ-Workspace/banking-system&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.39885056&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;application.passwordSafe&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.rush.banking.userservice.entity" />
@@ -96,7 +96,6 @@
         <env name="SystemDrive" value="$PROJECT_DIR$/../../../.." />
         <env name="MAVEN_HOME" value="C:\Program Files\apache-maven-3.2.5" />
         <env name="USERNAME" value="skaderi" />
-        <env name="USERDNSDOMAIN" value="CORP.CAPGEMINI.COM" />
         <env name="ProgramFiles(x86)" value="C:\Program Files (x86)" />
         <env name="FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
         <env name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
@@ -113,7 +112,6 @@
         <env name="windir" value="C:\WINDOWS" />
         <env name="GPPT_INSTALLFOLDER" value="c:\Installers" />
         <env name="=::" value="::\" />
-        <env name="OneDriveCommercial" value="C:\Users\skaderi\OneDrive - Capgemini" />
         <env name="LOCALAPPDATA" value="C:\Users\skaderi\AppData\Local" />
         <env name="IntelliJ IDEA" value="C:\Program Files\JetBrains\IntelliJ IDEA 2023.1.3\bin;" />
         <env name="GPPT_CACHEFOLDER" value="C:\Windows\ccmcache" />
@@ -122,7 +120,6 @@
         <env name="LOGONSERVER" value="\\WADINBLR25" />
         <env name="JAVA_HOME" value="$USER_HOME$/.jdks/corretto-17.0.8-1" />
         <env name="EFC_4424" value="0" />
-        <env name="OneDrive" value="C:\Users\skaderi\OneDrive - Capgemini" />
         <env name="APPDATA" value="C:\Users\skaderi\AppData\Roaming" />
         <env name="GPPT_LOGFOLDER" value="C:\SCCM_logs" />
         <env name="EFC_12780" value="0" />
@@ -247,6 +244,23 @@
       <updated>1668775799962</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
